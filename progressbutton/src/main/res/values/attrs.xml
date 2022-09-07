@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressButton">
+        <attr name="progress_background" format="reference|color" />
+        <attr name="progress_cover_background" format="reference|color" />
+        <attr name="progress_text_color" format="color" />  <!--還沒蓋過去時的顏色-->
+        <attr name="progress_text_cover_color" format="color" /> <!--還蓋過去時的顏色-->
+        <attr name="progress_icon" format="reference" />
+        <attr name="progress_icon_gravity">
+            <flag name="start" value="0" />
+            <flag name="end" value="1" />
+        </attr>
+        <attr name="progress_icon_padding" format="dimension" /> <!--icon跟字的距離-->
+        <attr name="progress_icon_mask_color" format="color" /> <!--還沒蓋過去時的顏色-->
+        <attr name="progress_text_finish" format="string" />
+        <attr name="progress_min" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress" format="integer" />
+    </declare-styleable>
+</resources>
